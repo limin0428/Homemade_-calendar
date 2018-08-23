@@ -1,0 +1,67 @@
+*{
+  margin: 0;    padding: 0;
+}
+ul>li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.clear:after{
+  display: block;
+  content: '';
+  clear: both;
+}
+.main{
+  width: 880px;
+  margin:30px auto;
+  .title{
+    height: 40px;
+    line-height: 40px;
+    .prev,.next{
+      display: inline-block;
+      width: 60px;
+      height: 30px;
+      background: orange;
+      color: #fff;
+      line-height: 30px;
+      text-align: center;
+      border-radius:4px;
+      cursor: pointer;
+      margin:0 30px;
+    }
+    .now_year{
+      i{
+        font-style: normal;
+      }
+    }
+  }
+  .data{
+    width: 100%;
+    .data_box{
+      float: left;
+      margin: 20px 10px;
+      width: 200px;
+      border: 1px solid red;
+      box-sizing: border-box;
+      p{
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+      }
+      .data_month{
+        width: 100%;
+        height: 161px;
+        li{
+          float: left;
+          width: 100%/7;
+          text-align: center;
+          border: 1px solid red;
+          box-sizing: border-box;
+        }
+      }
+
+    }
+  }
+}
